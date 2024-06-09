@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url(https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+
+}
+
+.cointainer {
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: rgb(233, 222, 68);
+    border-radius: 10px;
+    color: rgb(172, 148, 12);
+    text-shadow: 0 0 13px rgba(255, 217, 0, 0.822);
+box-shadow: 0 0 15px rgb(231, 215, 123);
+}
+
+.button {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    margin: 30px 0;
+
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: rgb(142, 191, 247);
+    box-shadow: 0 0 10px rgb(142, 191, 247);
+}
+
+#paper {
+    background-color: rgb(219, 196, 255);
+    box-shadow: 0 0 10px rgb(219, 196, 255)
+}
+
+#scissors {
+    background-color: teal;
+    box-shadow: 0 0 10px teal;
+}
+
+p {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.your-score span {
+    color: blue
+}
+
+.machine-score span {
+    color: red
+}
+
+@media (max-width: 450px) {
+    .cointainer {
+        height: 400px;
+        width: 320px;
+
+    }
+
+    button {
+        margin-top: 60px;
+        margin-bottom: 45px;
+        padding: 5px;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+}
