@@ -1,5 +1,5 @@
 <h1>JokenPô</h1>
-<img src ='./assests/Tela_jokenpo.png.png'>
+<img src ='./assests/WhatsApp Image 2024-06-09 at 10.44.36.jpeg'>
 <p>Projeto do jogo pedra, papel e tesoura desenvolvido como exercicio do curso DevClub, com designer leve e com uma pegada classica adicionei sons para a experiência do usuário ficar bem divertida na jogatina, deixei responsivo para as jogatinas também em mobile. </p>
 
 <b><p>Ferramentas utilizadas:
